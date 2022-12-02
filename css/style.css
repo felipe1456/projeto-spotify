@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    background-color: #191414;
+}
+
+footer{
+    display: none;
+}
+
+
+#container{
+    display: flex;
+    padding: 30px ;
+}
+
+#album{
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+#info span{
+font-size: 25px;
+}
+
+#info h1{
+    font-size: 45px;
+    font-family: 'regular';
+    color: #d75461  ;
+
+}
+#info h4{
+    font-family: 'semibold';
+    font-size:25px;
+    color: #84c12d;
+}
+
+.slip{
+    width: 150px;
+}  
+
+div{
+    color: white;
+}
+
+#info span{
+    font-family: 'semibold';
+    color: #B9B7BD;
+}
+
+#info span span{
+    color:#867e93;
+    font-family: 'bolditalic';
+}
+
+#info div{
+    display: flex;
+    margin-top: 10px;
+}
+
+#info div :nth-child(1){
+    border-radius: 30px 30px;
+    padding: 10px 40px;
+    background-color: green;
+    color: white;
+}
+
+#button-more{
+    padding: 0;
+    margin: 0;
+}
+
+#button-more:hover{
+    cursor: pointer;
+}
+
+#info div img{
+    margin-left: 15px;
+}
+
+#info div button:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+    transition: all 0.2s;
+}
+
+#info{
+    padding-left: 25px;
+}
+#container-table{
+    
+padding-top: 60px;
+
+}
+
+#container-table table thead tr {
+    font-family: 'italic';
+    color: #ae2d42;
+}
+
+#container-table table{
+    color: blue;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    color: gray;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#container-table  table tbody tr td{
+    padding: 10px 5px;
+    border-bottom: 1px solid grey;
+    color: #b7afc5;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: 'medium';
+}
+
+#container-table  table tbody tr:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+#button-mobile{
+    display: none;
+}
+
+#button1-mobile{
+    display: none;
+}
+
+#list-music-mobile{
+    display: none;
+}

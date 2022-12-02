@@ -1,0 +1,24 @@
+@font-face {
+    font-family:'bolditalic' ;
+    src: url(../fonts/IBMPlexSerif-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url(../fonts/IBMPlexSerif-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'semibold';
+    src: url(../fonts/IBMPlexSerif-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'italic';
+    src: url('../fonts/MerriweatherSans-Italic-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url(../fonts/ZenDots-Regular.ttf);
+}

@@ -1,0 +1,149 @@
+@media (max-width:600px) {
+    body{
+    background: linear-gradient(to bottom,#ff9784 5%,#191414,#191414,#191414);
+    }   
+
+
+    #container{
+        flex-direction: column;
+    }
+    #album{
+        margin: auto;
+    }
+
+    #info{
+        margin: auto;
+       
+    }
+    #info div{
+        flex-direction: column;
+    }
+
+    #button-mobile{
+        display: block;
+        margin: auto;
+        border:none;
+        width: 100%;
+        margin-top: 10px;
+        background-color: green;
+        color: white;
+        padding: 10px;
+        border-radius: 30px 30px;
+    }
+    #info div :nth-child(1){
+        display: none;
+    }
+    #info h4{
+        display: none;
+    }
+
+    #info div :nth-child(3){
+        display: none;
+    }
+
+    #info span span{
+        display: none;
+    }
+
+    #info span{
+        display: block;
+        text-align: center;
+    }
+    #button1-mobile{
+        display: block;
+        margin-top: 10px;
+        width: 70%;
+        margin: 10px auto 0 auto;
+        background-color: transparent;
+        color: white;
+        border: 1px solid gray;
+        border-radius: 30px 30px;
+        padding: 5px;
+    }
+
+    #container-table{
+        display: none;
+        border: 1px solid red;
+
+    }
+
+    
+    #container-table table{
+        width: 20%;
+        margin: 0;
+    }
+    #container-table  table tbody tr td{
+        border: none;
+    } 
+
+    #list-music-mobile ul li{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        list-style: none;
+    }
+
+    #list-music-mobile ul li div{
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    #list-music-mobile ul li div :nth-child(2){
+        display: flex;
+        align-items: center;
+        justify-content: space-between ;
+
+    }
+
+    #list-music-mobile ul li div :nth-child(2) span{
+        margin-left: 6px;
+    }
+
+
+    .faixa{
+        width: 50px;
+        height: 50px;
+    }
+
+ 
+
+    #list-music-mobile{
+        margin: 0;
+        display: block;
+    }
+
+    #container-footer{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #container-footer div{
+        padding: 0;
+        margin: 13px auto 5px auto;
+        height: 100%;
+    }
+
+    #container-footer div p{
+        margin-top:5px ;
+    }
+
+    #container-footer div img{
+        display: block;
+        margin: auto;
+    }
+
+    footer{
+        background-color: #262626;
+        display: block;
+    }
+
+    #icons-name{
+        display: flex;
+        width: 70%;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+
+    }
